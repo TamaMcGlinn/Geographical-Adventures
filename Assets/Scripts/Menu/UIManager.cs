@@ -63,6 +63,6 @@ public class UIManager : MonoBehaviour
 			GameController.SetState(GameState.Playing);
 		}
 
-		Seb.Helpers.GameObjectHelper.SetActiveAll(!showMap, hideInMapView);
+		// Seb.Helpers.GameObjectHelper.SetActiveAll(!showMap, hideInMapView);
 	}
 }
