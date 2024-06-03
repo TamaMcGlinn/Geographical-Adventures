@@ -134,6 +134,13 @@ namespace GeoGame.Quest
 			{
 				//Debug.Log(allLocationWeights[i]);
 			}
+			// for debugging locations
+			// for (int i = 0; i < allLocations.Length; i++)
+			// {
+			//   if (allLocations[i].city.name == "Astana") {
+			//     return allLocations[i];
+			//   }
+			// }
 			return allLocations[index];
 		}
 
