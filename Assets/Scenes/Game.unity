@@ -1117,7 +1117,7 @@ MonoBehaviour:
   boostSpeed: 25
   speedSmoothing: 0.1
   maxBoostTime: 30
-  boostTimeAtStart: 5
+  boostTimeAtStart: 15
   totalTurnAngle: 0
   smoothRollTime: 0.35
   rollAngle: -35

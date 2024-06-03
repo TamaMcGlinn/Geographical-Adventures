@@ -21,7 +21,7 @@ namespace GeoGame.Quest
 		public StartSettings[] allStartSettings;
 
 
-		public int perfectBoostTimeAdd = 15;
+		public int perfectBoostTimeAdd = 25;
 		public float resultMessageDuration = 6.5f;
 		public float pickupMessageDuration = 5;
 
@@ -320,7 +320,7 @@ namespace GeoGame.Quest
 				boostAdd = Mathf.Lerp(maxNonPerfectBoostIncrease, 0, 1 - Mathf.Pow(1 - t, 3));
 				if (result.landedInCorrectCountry)
 				{
-					boostAdd += 2;
+					boostAdd += 8;
 					boostAdd = Mathf.Min(boostAdd, maxNonPerfectBoostIncrease);
 				}
 			}
